@@ -36,3 +36,13 @@ width: 90%;
 border-radius: 25px;
 border: 1px snow;
 }
+
+.columbs img.hover {
+transform: scale(1.1);
+transition: 0.3s;
+cursor: pointer;
+}
+
+.columbs p:hover {
+    font-weight: 900;
+}
