@@ -1,7 +1,6 @@
 body {
 font-family: 'Rajdhani', sans-serif;
 font-weight: 300;
-width: 450px;
 text-align: center;
 }
 
@@ -18,31 +17,61 @@ font-size: 80px;
 margin: 0px;
 }
 
-.container {
-margin-top: 10px;
-display: contents;
-justify-content: center;
-gap: 15px;
-}
-
 .columbs {
-width: 30%;
+width: 33%;
 text-align: center;
 }
 
+.columbs div{
+    margin-top: 10px;
+    width: 90%;
+    border-radius: 25px;
+    border: 5px solid black;
+}
+
 .columbs img {
-margin-top: 10px;
-width: 90%;
-border-radius: 25px;
-border: 1px snow;
+   margin-top: 10px;
+   width: 90%;
+   border-radius: 25px;
+   border: 1px snow;
 }
 
 .columbs img.hover {
-transform: scale(1.1);
-transition: 0.3s;
-cursor: pointer;
+   transform: scale(1.1);
+   transition: 0.3s;
+   cursor: pointer;
 }
 
 .columbs p:hover {
     font-weight: 900;
+}
+
+.swedishballs {
+   margin-top: 10px;
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+}
+
+#bullar{
+   background: url("bullar.png");
+   background-size: cover;
+   height: 450px;
+   background-position: center;
+}
+
+#balls{
+    background: url("balls.png");
+    background-size: cover;
+    height: 450px;
+    background-position: center;
+}
+
+#rasinbullar{
+    previous background-color: #f1f1f1;
+     color: black;
+    background: url("rasin bullar.png");
+    background-size: cover;
+    height: 450px;
+    background-position: center;
 }
