@@ -68,10 +68,14 @@ text-align: center;
 }
 
 #rasinbullar{
-    previous background-color: #f1f1f1;
-     color: black;
     background: url("rasin bullar.png");
     background-size: cover;
     height: 450px;
     background-position: center;
 }
+
+video {
+    width: 100%;
+    height: auto;
+    
+  }
